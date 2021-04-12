@@ -3,8 +3,7 @@ module github.com/erda-project/erda-infra
 go 1.14
 
 require (
-	github.com/gocql/gocql v0.0.0-20210313142353-65899a66288b
-	github.com/confluentinc/confluent-kafka-go v1.5.2
+	github.com/confluentinc/confluent-kafka-go v1.4.2
 	github.com/coreos/bbolt v1.3.2 // indirect
 	github.com/coreos/etcd v3.3.25+incompatible
 	github.com/coreos/go-semver v0.3.0 // indirect
@@ -17,6 +16,7 @@ require (
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-zookeeper/zk v1.0.2
+	github.com/gocql/gocql v0.0.0-20210313142353-65899a66288b
 	github.com/gofrs/uuid v4.0.0+incompatible
 	github.com/golang/protobuf v1.5.1 // indirect
 	github.com/google/btree v1.0.1 // indirect
